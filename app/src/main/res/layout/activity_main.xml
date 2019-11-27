@@ -19,24 +19,25 @@
 
     />
 
+    <Button
+        android:id="@+id/clearContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loadContacts"
+        android:text="Tyhjennä tiedot"
+
+        />
 <TextView
     android:id="@+id/listContacts"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="30dp"
-    android:layout_below="@+id/loadContacts"
+    android:layout_below="@+id/clearContacts"
     android:layout_centerHorizontal="true"
 
     />
 
-<Button
-    android:id="@+id/clearContacts"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="30dp"
-    android:layout_centerHorizontal="true"
-    android:layout_below="@+id/listContacts"
-    android:text="Tyhjennä tiedot"
 
-    />
     </RelativeLayout>
